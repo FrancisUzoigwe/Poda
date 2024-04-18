@@ -12,7 +12,7 @@ const Whyus = () => {
             <div className="w-full min-h-[100vh] flex justify-center bg-[#F8F9FB]" id="about">
                 <div className="w-[95%] flex items-center  max-lg:flex-col mt-3">
                     <img className="w-[500px] border h-[500px] object-cover rounded-lg max-lg:w-[95%]" alt="Image" src={aboutImage} />
-                    <div className=" w-[600px] max-lg:w-full ml-16">
+                    <div className=" w-[600px] max-lg:w-full ml-16 max-lg:ml-0">
                         <div className="font-[Blud] text-[40px] my-3">Why are we unique.</div>
                         <div className="text-gray-600 max-md:w-[95%]">Explore a wide range of categories and stay up to date with the latest news and trends in the podcast world.</div>
                         <div className="my-3">
