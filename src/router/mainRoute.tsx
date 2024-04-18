@@ -4,6 +4,7 @@ import Landing from "../pages/auth/Landing";
 
 
 export const mainRoute = createBrowserRouter([
+    
     {
         path: "/",
         element: <Layout />,
