@@ -11,7 +11,7 @@ const PopOut = () => {
     return (
         <>
             <div className="w-full h-full fixed bg-gray-900 bg-opacity-25  flex items-center justify-center top-0 z-[500] ">
-                <div className="fixed min-h-[400px] max-md:w-[80%] w-[500px] bg-white opacity-1 rounded-lg flex flex-col items-center">
+                <div className="fixed min-h-[400px] max-md:w-[90%] w-[500px] bg-white opacity-1 rounded-lg flex flex-col items-center">
                     <div className="w-[95%] text-[20px] font-[Blud] my-7">Join Waitlist</div>
                     <div className="w-[95%] text-[18px]">Get notifications on the launch of PodA and stay updated on our podcast activities.</div>
                     <label
