@@ -13,7 +13,7 @@ const Discover = () => {
             {pop && <PopOut />}
             <div className="w-full min-h-[100vh] flex justify-center bg-[#F8F9FB]" id="features">
                 <div className="w-[95%] flex flex-col items-center mt-14">
-                    <div className="font-[Blud] text-[40px] text-center my-3">Discover Your Favorite
+                    <div className="font-[Blud] text-[40px] text-center my-3 max-md:text-[30px] max-md:leading-[36px] ">Discover Your Favorite
                         Podcast and Audiobook Categories</div>
                     <div className="text-gray-600">Explore our wide range of categories, share what you know & listen anytime, anywhere.</div>
                     <div className="my-5" />

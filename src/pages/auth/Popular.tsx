@@ -17,7 +17,7 @@ const Popular = () => {
 
                     <div className="mt-10 w-full flex justify-center">
                         <div className="w-[90%] pb-5">
-                            <div className="text-[40px] max-md:text-[30px] max-md:leading-[37px] font-[Blud] leading-[47px] w-[650px] max-lg:w-full"> Ready For Enjoying The Most Popular Podcast In Your City</div>
+                            <div className="text-[40px] font-[Blud] leading-[47px] w-[650px] max-lg:w-full max-md:text-[30px] max-md:leading-[36px] "> Ready For Enjoying The Most Popular Podcast In Your City</div>
                             <div className="my-4 text-gray-600">Explore our wide range of categories, share what you know & listen anytime, anywhere.</div>
                             <div>
                                 <button className="px-4 py-3 rounded-lg bg-black text-white hover:bg-[#FF9A00]  transition-all duration-300 " onClick={() => {

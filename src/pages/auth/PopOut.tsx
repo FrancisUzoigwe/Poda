@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { getRegisteredApi } from "../../apis/emailApis";
 import Swal from "sweetalert2"
+import { HashLoader } from "react-spinners"
 import { useState } from "react";
 
 const PopOut = () => {
@@ -32,7 +33,8 @@ const PopOut = () => {
         getRegisteredApi({ email, name }).then(() => {
             Swal.fire({
                 icon: "success",
-                text: "Successfully subsribed to our newsletter",
+                text: "Successfully subsribed to our newsletter, please check your email for further information. PodA",
+                title: "Newsletter subscription",
                 timer: 3000,
                 timerProgressBar: true
             })
@@ -40,7 +42,6 @@ const PopOut = () => {
             setLoading(false)
         })
     })
-
 
     return (
         <>
@@ -87,10 +88,10 @@ const PopOut = () => {
                         </span>
                     </label>
                     <div className="flex items-center justify-between my-4 max-md:flex-col max-md:w-full">
-                        <button className="px-4 py-3 rounded-lg bg-black max-lg:w-[90%] text-white hover:bg-[#FF9A00]  transition-all duration-300 mr-5 max-lg:mr-0" type="submit">{loading ? "Collecting Data...." : "Join Waitlist"}</button>
+                        <button className="px-4 py-3 rounded-lg bg-black max-lg:w-[90%] text-white hover:bg-[#FF9A00]  transition-all duration-300 mr-5 max-lg:mr-0 flex justify-center items-center" type="submit">{loading ? <div className="flex items-center">Loading... <HashLoader size={25} color="white" className="ml-2" /></div> : "Join Waitlist"}</button>
                         <button className="px-4 py-3 max-lg:w-[90%] rounded-lg border hover:text-white hover:bg-[#FF9A00] transition-all duration-300 max-lg:my-3  " onClick={() => {
                             dispatch(changedPop())
-                        }}>Cancel</button>
+                        }} >Cancel</button>
                     </div>
                 </form>
             </div>
