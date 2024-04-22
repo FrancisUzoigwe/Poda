@@ -13,12 +13,14 @@ const Whyus = () => {
                 <div className="w-[95%] flex items-center  max-lg:flex-col mt-3">
                     <img className="w-[500px] border h-[500px] object-cover rounded-lg max-lg:w-[95%]" alt="Image" src={aboutImage} />
                     <div className=" w-[600px] max-lg:w-full ml-16 max-md:ml-1">
-                        <div className="font-[Blud] text-[40px] my-3 max-md:text-[30px] max-md:leading-[36px] ">Why are we unique.</div>
-                        <div className="text-gray-600 max-md:w-[95%]">Explore a wide range of categories and stay up to date with the latest news and trends in the podcast world.</div>
+
+
+                        <div className="font-[Blud] text-[40px] my-3 max-md:text-[30px] max-md:leading-[36px] ">Why we are unique.</div>
+
                         <div className="my-3">
                             <p className="my-4">
                                 <img src={check} alt="" className="inline-block mr-2 " />
-                                With our built-in microphone, record and edit & publish right inside the app.
+                                With our built-in microphone, record,  edit & publish right inside the app.
                             </p>
                             <p className="my-4">
                                 <img src={check} alt="" className="inline-block mr-2 " />

@@ -7,6 +7,9 @@ const Hero = () => {
     const pop = useSelector((state: any) => state.pop)
     return (
         <>
+            <div className="w-full flex items-center justify-center bg-[#F8F9FB]">
+                <div className="capitalize w-[95%] flex items-center text-center justify-center text-[25px] py-3 font-[Zah]">You deserve to be heard. You deserve to know.</div>
+            </div>
             {pop && <PopOut />}
             <div className="w-full bg-[#F8F9FB] min-h-[90vh] flex justify-center">
                 <div className="w-[95%] flex justify-between items-center max-lg:flex-col">
