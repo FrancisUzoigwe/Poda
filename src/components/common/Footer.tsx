@@ -16,7 +16,7 @@ const Footer = () => {
                     </p>
                     <div className="flex justify-center lg:justify-start gap-2 mt-3 lg:mt-0">
                         <a
-                            href="https://twitter.com/example"
+                            href="https://x.com/Pod_Audio?s=09"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-black p-4 rounded-full hover:bg-secondary transition duration-300 ease-in-out"
